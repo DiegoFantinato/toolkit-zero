@@ -1,0 +1,14 @@
+{
+  "name": "@toolkit-zero/eslint-quality",
+  "version": "0.1.0-dev",
+  "private": true,
+  "description": "Experimental ESLint quality gates for Toolkit Zero.",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "peerDependencies": {
+    "eslint": ">=9 <10"
+  },
+  "scripts": {
+    "test": "node tests/verify.mjs"
+  }
+}
